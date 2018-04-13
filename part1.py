@@ -37,4 +37,7 @@ for suspect in suspects[:]:
 	if suspect == 'WOODS':
 		suspects.remove(suspect)
 suspects = list(OrderedDict.fromkeys(suspects))
-print suspects
+
+print 'The Suspects are: '
+for suspect in suspects:
+	print suspect ,
